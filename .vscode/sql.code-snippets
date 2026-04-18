@@ -1,0 +1,26 @@
+{
+  "LeetCode SQL Local Template": {
+    "scope": "sql",
+    "prefix": "lc",
+    "body": [
+      "-- ===============================================",
+      "-- ID: ${TM_FILENAME_BASE/([eEmMhH])(\\d+).*/$2/}",
+      "-- Title: ${TM_FILENAME_BASE/([^\\d]+)(\\d+)_([\\w-]+)/${3:/capitalize}/}",
+      "-- Link: ${3:URL_bài_tập}",
+      "-- Difficulty: ${TM_FILENAME_BASE/(^[eE].*)|(^[mM].*)|(^[hH].*)/${1:+Easy}${2:+Medium}${3:+Hard}/}",
+      "-- Date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "-- ===============================================",
+      "",
+      "/* --- SQL SCHEMA --- */",
+      "$5",
+      "",
+      "/* --- MY SOLUTION --- */",
+      "SELECT",
+      "\t$0",
+      "FROM",
+      "\t",
+      ";"
+    ],
+    "description": "Template chỉ dành cho folder LeetCode SQL"
+  }
+}
