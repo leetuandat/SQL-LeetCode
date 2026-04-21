@@ -15,9 +15,7 @@
       "$5",
       "",
       "/* --- MY SOLUTION --- */",
-      "SELECT",
-      "\t$0",
-      "FROM",
+      "SELECT $1 FROM",
       "\t",
       ";"
     ],
